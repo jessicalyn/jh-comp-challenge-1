@@ -1,0 +1,197 @@
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  margin: 0;
+  color: black;
+
+}
+
+header {
+  background-color: #0B3C49;
+  height: 50px;
+}
+
+#top-header {
+  display: inline-flex;
+  float: right;
+}
+
+header p {
+  color: #9BC4CB;
+  padding: 15px 0;
+  width: 100%;
+}
+
+.header-icons {
+  height: 25px;
+  padding: 10px 10px 0px 10px;
+}
+
+#menu-drop-down {
+  height: 15px;
+  padding-top: 18px;
+}
+
+#nav-bar {
+  background-color: #0B3C49;
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  display: inline;
+}
+
+h3 {
+  color: lightgrey;
+}
+
+#shares {
+  color: #F3F7F0;
+}
+
+#logo {
+  height: 50px;
+}
+
+main {
+  display: block;
+  background-color: #F3F7F0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+  padding: 20px 0px 0px 20px;
+  color: #0B3C49;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cards {
+  max-height: 425px;
+  max-width: 225px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 15px;
+}
+
+.card-header {
+  background-size: cover;
+  background-position: 100%;
+  height: 110px;
+}
+
+#card1 {
+  background-image: linear-gradient(to top, transparent, 40%, #7B7D7D), url(images/cats.jpg);
+}
+
+#card2 {
+  background-image: linear-gradient(to top, transparent, 40%, #7B7D7D), url(images/dogs.jpg);
+}
+
+#card3 {
+  background-image: linear-gradient(to top, transparent, 40%, #7B7D7D), url(images/donkeys.jpg);
+}
+
+#card4 {
+  background-image: linear-gradient(to top, transparent, 40%, #7B7D7D), url(images/flamingos.jpg);
+}
+
+#card5 {
+  background-image: linear-gradient(to top, transparent, 40%, #7B7D7D), url(images/lions.jpg);
+}
+
+#card6 {
+  background-image: linear-gradient(to top, transparent, 40%, #7B7D7D), url(images/parrots.jpg);
+}
+
+#card7 {
+  background-image: linear-gradient(to top, transparent, 40%, #7B7D7D), url(images/prairie-dogs.jpg);
+}
+
+#card8 {
+  background-image: linear-gradient(to top, transparent, 40%, #7B7D7D), url(images/sheep.jpg);
+}
+
+#card-header-text {
+  float: right;
+  text-align: center;
+  padding: 10px;
+  color: white; 
+}
+
+#arrow {
+  float: left;
+  height: 35px;
+  padding: 10px;
+}
+
+.card-text {
+  background-color: white;
+  padding: 10px;
+}
+
+h2,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.card-highlight {
+  background-color: lightgrey;
+  padding: 5px;
+  margin: 15px 5px;
+}
+
+a {
+  background-color: transparent;
+  overflow-wrap: break-word;
+  text-decoration: none;
+  color: #0B3C49;
+  font-size: small;
+}
+
+#small-text {
+  font-size: 10px;
+  color: grey;
+}
+
+.blue {
+  color: #9BC4CB;
+}
+
+@media screen and (max-width: 510px) {
+  h1 {
+    text-align: center;
+  }
+
+  h3 {
+    display: none;
+  }
+}
+
+small {
+  font-size: 80%;
+}
+
+img {
+  border-style: none;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
