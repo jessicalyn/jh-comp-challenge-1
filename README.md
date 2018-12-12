@@ -3,7 +3,11 @@
 I created this static page using a comp provided to me, see screenshots below. I used HTML and CSS to build the page. I included media queries to allow the site to be responsive on smaller screens.
 
 ## Screenshots
+### Static Comp screenshot
+![Static Comp screenshot](/images/Static-Comp-screenshot)
 
+### My Dog Party webpage
+![JH Static Comp screenshot](/images/JH-Static-Comp-screenshot)
 
 ## Support
 
